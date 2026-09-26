@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Get in touch</h1>
+    <p class="subtitle">Fill out the form below and we'll get back to you.</p>
+ 
+    <form>
+      <div class="row">
+        <div class="field">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" placeholder="Mohamad Alam">
+        </div>
+        <div class="field">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" placeholder="Nabi Hussein">
+        </div>
+      </div>
+ 
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="mohamad.alam@example.com">
+      </div>
+ 
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="+1 555 000 0000">
+      </div>
+ 
+      <div class="field">
+        <label for="company">Company</label>
+        <input type="text" id="company" placeholder="Abcd Inc.">
+      </div>
+ 
+      <div class="field">
+        <label for="website">Website</label>
+        <input type="url" id="website" placeholder="https://example.com">
+      </div>
+ 
+      <div class="row">
+        <div class="field">
+          <label for="dob">Date of birth</label>
+          <input type="date" id="dob">
+        </div>
+        <div class="field">
+          <label for="budget">Budget</label>
+          <input type="number" id="budget" placeholder="1000">
+        </div>
+      </div>
+ 
+      <div class="field">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="" selected disabled>Select a country</option>
+          <option>Philippines</option>
+          <option>Canada</option>
+          <option>United Kingdom</option>
+          <option>Australia</option>
+          <option>Other</option>
+        </select>
+      </div>
+ 
+      <div class="field">
+        <label for="topic">Topic</label>
+        <select id="topic">
+          <option value="" selected disabled>Choose a topic</option>
+          <option> General inquiry</option>
+          <option>Support</option>
+          <option>Partnership</option>
+        </select>
+      </div>
+ 
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell us more..."></textarea>
+      </div>
+ 
+      <div class="checkbox-row">
+        <input type="checkbox" id="terms">
+        <label for="terms" style="margin:0;font-weight:400;">I agree to the terms and conditions</label>
+      </div>
+ 
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
+ 
